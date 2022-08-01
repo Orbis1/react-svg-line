@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import { Data } from './App';
-import "./LineChart.css"
 
 type LineChartProps = {
   data?: Data[],  
