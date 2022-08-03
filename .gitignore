@@ -13,7 +13,7 @@
 
 # storuybook
 src/stories
-.storybook
+storybook-static
 
 # misc
 .DS_Store
