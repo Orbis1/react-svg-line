@@ -16,7 +16,9 @@ const defaultProps = {
 }
 
 const LineChart = (props: LineChartProps = defaultProps) => {
-  return <h1>{props.data?.map(({x, y}) => `{ ${x}:${y} }`).join('|')}</h1>
+  return <div data-testid = "linechart">
+    <h1>{props.data?.map(({x, y}) => `{ ${x}:${y} }`).join('|')}</h1>
+  </div>
 }
 
 // class LineChart extends Component {
